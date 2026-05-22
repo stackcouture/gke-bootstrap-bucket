@@ -39,3 +39,8 @@ variable "environment" {
   description = "Environment Name"
   default     = null
 }
+
+variable "loki_bucket_name" {
+  type        = string
+  description = "Loki bucket"
+}

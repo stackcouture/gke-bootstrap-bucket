@@ -7,3 +7,6 @@ bucket_name   = "terraform-gke-state-bkt"
 location      = "asia-south1"
 storage_class = "STANDARD"
 environment   = "dev-env"
+
+# Loki Bucket 
+loki_bucket_name = "vote-loki-logs"
