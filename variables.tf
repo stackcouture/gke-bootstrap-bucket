@@ -44,3 +44,8 @@ variable "loki_bucket_name" {
   type        = string
   description = "Loki bucket"
 }
+
+variable "artifact_bucket_name" {
+  type        = string
+  description = "Artifact repo bucket"
+}
